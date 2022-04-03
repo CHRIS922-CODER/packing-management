@@ -14,25 +14,14 @@ public class Packing {
 			System.out.println("enter the number of small cars with dimensions (20cm length and 15cm width)");	
 			 smallCars = input.nextInt();
 		};
-//		System.out.println("enter the number of big cars with dimensions (40cm length and 15cm width)");	
-//		 bigCars = input.nextInt();
+		System.out.println("enter the number of big cars with dimensions (40cm length and 15cm width)");	
+		bigCars = input.nextInt();
 		while(bigCars <= 0){
 			System.out.println("Invalid entry \n Please try again!!");
 			System.out.println("enter the number of big cars with dimensions (40cm length and 15cm width)");	
 			bigCars = input.nextInt();
 		}
-//		if(smallCars > 0) {
-//			System.out.println("enter the number of big cars with dimensions (40cm length and 15cm width)");	
-//			 bigCars = input.nextInt();
-//			if(bigCars <= 0) {
-//				System.out.println("Invalid entry \n Please try again!!");
-//				System.out.println("enter the number of big cars with dimensions (40cm length and 15cm width)");	
-//				 bigCars = input.nextInt();
-//			}
-			
-			
-	
-		// testing the inputs from the user if its correct
+
 	
     System.out.println("you have entered "+ smallCars + " small cars and  "+bigCars +" big cars");
     int smallArea = 3000, bigArea = 6000, packingArea = 600000;
